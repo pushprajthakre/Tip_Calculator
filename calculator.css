@@ -1,0 +1,114 @@
+body{
+	background-image:linear-gradient(orange ,yellow ,blue);
+}
+#div1{
+	width:450px;
+	height:550px;
+	background-color:white;
+	border-radius:20px;
+	margin:0 auto;
+	margin-top:50px;
+}
+#para1{
+	background-color:black;
+	color:white;
+	text-align:center;
+	height:30px;
+     border-radius:20px 20px 0px 0px;
+	 padding-top:10px;
+	 font-weight:bold;
+	 
+}
+#para2{
+	color:blue;
+	margin-left:50px;
+	font-size:20px;
+	font-weight:bold;
+}
+#input{
+width:250px;
+height:30px;
+margin-left:0px;
+font-size:15px;
+border-top:2px solid grey;
+border-left:2px solid grey;
+border-bottom:2px solid #F5F5F5;
+border-right:2px solid #F5F5F5;
+background-color:;
+}
+	
+#para3{
+	color:blue;
+	margin-left:50px;
+	font-size:20px;
+}
+input:focus{ outline:none;}
+
+#select{
+	width:250px;
+	height:50px;
+	margin-left:80px;
+	background-color: #F5F5F5;
+	font-size:21px;
+	text-align:center;
+}
+select:focus{outline:none;}
+#para4{
+	color:blue;
+	margin-left:80px;
+	font-size:23px;
+	font-weight:bold;
+}	
+#butt{
+	width:220px;
+	height:50px;
+	color:white;
+	background-color:red;
+	font-size:20px;
+	font-weight:;
+	margin-left:100px;
+	border-radius:5px;
+}
+#input1{
+width:250px;
+height:30px;
+margin-left:0px;
+font-size:15px;
+border-top:2px solid grey;
+border-left:2px solid grey;
+border-bottom:2px solid #F5F5F5;
+border-right:2px solid #F5F5F5;
+background-color:;
+}
+input1:focus{ outline:none;}
+#butt:hover{
+	background-color:#9900e6;
+}
+#totalTip
+	{
+		font-size:30px;
+		margin-top:5px;
+		text-align:center;
+		color:#000099;
+	}
+#totalTip:before
+	{
+		content:"Tip Amount";
+		font-size:20px;
+		font-weight:bold;
+		display:block;
+		text-transform:uppercase;
+	}
+#totalTip sup
+	{
+		font-size:20px;
+		top:-5px;
+	}
+#totalTip small
+	{
+		font-size:20px;
+		font-weight:bold;
+		margin-top:-30px;
+		margin-left:140px;
+		display:block;		
+	}
